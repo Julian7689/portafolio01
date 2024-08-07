@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --color-primario:#000000; 
+    --color-secundario:#F0EDCF;
+    --color-terciario:#40A2D8;
+
+    --fuente-montserrat:"Montserrat", sans-serif ;
+    --fuente-kroma:"Krona One", sans-serif;
+
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    height: 100vh;
+    box-sizing: border-box;
+}
+.header{
+    padding:2% 0% 0% 15%;
+}
+.header_menu{
+    display: flex;
+    gap:80px
+    
+}
+
+.header_menu{
+   font-family:var(--fuente-montserrat) ;
+   font-size: 1.5rem;
+   font-weight: 600;
+   color: var(--color-terciario);
+}
+.titulo-destaque{
+    color: var();
+}
+.presentacion{
+    display: flex;
+    flex-direction:center;
+    padding: 5% 15%;
+    justify-content: space-around;
+    gap:82 px;
+}
+.presentacion_contenido{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.presentacion_contenido_titulo{
+    font-family: var(--fuente-kroma);
+    font-size: 2.25 rem;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: left;
+}
+.presentacion_contenido_parrafo{
+    font-family: var(--fuente-montserrat);
+    font-size: 1.5rem;
+}
+.presentacion_botones{
+    display: flex;
+    justify-content: space-between;
+
+}
+.presentacion_botones{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.enlace1{
+   
+    width: 50%;
+    font-family: var(--fuente-kroma);
+    text-align: center;
+    padding: 21.5pxv 0;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 700px;
+    text-decoration: none;
+    color: var(--color-secundario);
+    border: 1px solid var(--color-terciario);
+    display: flex;
+    justify-content: center;
+}
+.enlace2{
+     
+    width: 50%;
+    font-family:var(--fuente-kroma);
+    text-align: center;
+    padding: 21.5pxv 0;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600px;
+    text-decoration: none;
+    color: var(--color-secundario);
+    border: 1px solid var(--color-terciario);
+    display: flex;
+    justify-content: center;
+}
+.encabezado{
+    font-family: var(--fuente-kroma);
+    border: 2px solid var(--color-terciario);
+}
+.presentacion__enlaces_Subtitulos{
+    font-family: var(--fuente-kroma);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.enlace1:hover{
+  background-color: var(--color-terciario);    
+}
+.enlace2:hover{
+    background-color: var(--color-terciario);
+}
+.Encabezados_2{
+width: 50%;
+   font-family: var(--fuente-kroma);
+   color:var(--color-secundario);
+    text-decoration: none;
+}
+.footers{
+    background-color: var(--color-terciario);
+    padding: 1.5rem;
+    color: var(--color-primario);
+    text-align: center;
+    font-family: var(--fuente-montserrat);
+    font-size: 1.5rem;
+}
+.presentacion__contenido__texto a{
+    text-decoration: none;
+    color: var(--color-terciario);
+}
+.presentacion_contenido_titulo1{
+    font-family: var(--fuente-kroma);
+    font-size: 30px;
+    font-weight: 350;
+    line-height: 65px;
+    text-align: left;
+
+}
+.presentacion_contenido_inicia{
+    font-family: var(--fuente-kroma);
+    font-size: 2.25rem;
+    font-weight: 400;
+    line-height: 400px;
+    text-align: center;
+}
+.presentacion_contenido1{
+    width: 50%;
+    font-family: var(--fuente-montserrat);
+    font-weight: 400;
+    line-height: 0px;
+    text-align: center;
+}
+.Formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background: var(--color-terciario);
+    border-radius: 10px;
+}
+.formularioh1 {
+    text-align: center;
+    padding: 0 0 20px 0; /* Corrected the padding */
+    border-bottom: 1px solid black;
+    font-family: var(--fuente-kroma);
+}
+
+.Formulario form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.username input {
+    width: 50%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.username label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad; /* Changed color to black for visibility */
+    transform: translateY(50%); /* Corrected the translateY value */
+    font-size: 16px;
+    pointer-events: none;
+}
+.username span::before{
+    content: "";
+    position: absolute;
+    top:40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #6c3483;
+}
+
+.username input:focus~label,
+.username input:focus~label{
+   top: -5px;
+   color: #6c3483;
+}
+.username input:focus ~ span::before,
+.userename input:focus ~span::before{
+    width: 50%;
+}
+.presentacion__imagen{
+    width: 50%;
+}
+@media (max-width: 1200px) {
+    .header{
+        padding: 10%;
+    }
+    .header_menu{
+        justify-content: center;
+    }
+    .presentacion_contenido_parrafo{
+        justify-content: center;
+    }
+    .presentacion_contenido_titulo{
+        justify-content: center;
+    }
+    .presentacion{
+        flex-direction: column-reverse;
+        padding: 5%;
+        
+    }
+    .presentacion_contenido{
+        width: auto;
+    }
+  }
+  
