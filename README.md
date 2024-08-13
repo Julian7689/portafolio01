@@ -9,3 +9,4 @@ Estado del proyecto: En construcion.
 -HTML
 
 3. Nesecitas descargar Vs Code, para poder verlo.
+Realizando practicas
